@@ -8,14 +8,14 @@ public class Exam05 {
         num = s.nextInt();
 
         if(num%15==0){
-            System.out.println("5와 3의 배수를 입력해주세요");
+            System.out.println("5와 4의 배수를 입력하셨습니다.");
         }
         else if (num%5==0){
-            System.out.println("5의 배수를 입력해주세요");
+            System.out.println("5의 배수를 입력하셨습니다.");
         }
 
         else if (num%3==0){
-            System.out.println("3의 배수를 입력해주세요");
+            System.out.println("3의 배수를 입력하셨습니다.");
         }
 
         else {
