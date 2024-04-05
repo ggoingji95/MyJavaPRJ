@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 public class Coco01_24 {
+//    주석테스트
     public static void main(String[] args) {
         Scanner s = new Scanner(System.in);
 
