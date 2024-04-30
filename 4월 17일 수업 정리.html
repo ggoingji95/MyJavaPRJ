@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML 5 Basic</title>
+        <!--<link rel="stylesheet" href="css/style.css">-->
+        <style>
+            body {background:#999 url('asdf.jpg') no-repeat bottom right}
+            #container {position:relative; height:200px; overflow:hidden; overflow-y:scroll; background:#ff9000;}
+            #container .hidden {display:none;}
+            #container div {position:absolute; top:100px; left:100px; width:150px; height:150px;}
+            #container .blue {background:blue;}
+            #container .red {background:red;}
+            #container .pos1 {top:150px; left:150px; z-index:100;}
+            #container .pos2 {top:200px; left:200px;}
+            .fix {position:fixed; z-index:101; top:100px; left:100px; width:100px; height:100px; background:#eee;}
+            .fl1 {float:left; width:100px; height:100px; background:#fff;}
+            .fl2 {float:left; width:100px; height:100px; background:#aaa;}
+            .fl3 {float:right; width:100px; height:100px; background:#888;}
+            .fl4 {float:right; width:100px; height:100px; background:linear-gradient(to bottom, #fff 0%, #111 100%);}
+        </style>
+    </head>
+    <body>
+        <div id="wrap">
+            <header>
+                dkjfsghljdsfk
+            </header>
+            <div id="container">
+                <span>aaaaaa</span>
+                <div class="hidden">bbbbbb</div>
+                <span>aaaaaa</span>
+                <div class="red">bbbbbb</div>
+                <div class="blue pos1">bbbbbb</div>
+                <div class="red pos2">bbbbbb</div>
+                <p class="fix">cccccccc</p>
+                <p>아</p>
+                <p>cc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+                <p>cccccccc</p>
+            </div>
+            <footer>
+                <div class="fl1">1111</div>
+                <div class="fl2">2222</div>
+                <div class="fl3">3333</div>
+                <div class="fl4">4444</div>
+            </footer>
+        </div>
+    </body>
+</html>
