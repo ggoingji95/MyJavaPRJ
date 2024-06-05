@@ -2,15 +2,24 @@
 
 void main()
 {
+	FILE *wfp;
+	int i,j;
 
-	int i,k;
+	wfp=fopen("c:\\c_study\\gugu.txt","w");
 
-	for(i = 1; i<9; i++){
-		for(k = 2k k<9; k++){
+	for(i=0; i<10; i++){
+		for(j=2;j<10;j++){
+			if(i==0){
+				fprintf(wfp, " #Á¦%d´Ü#\t",j);
+				if(j==9){
+					fprintf(wfp,"\n");
+				}
+			}
+			else{
+				fprintf(wfp, "%2dX%2d=%2d\t",j,i,j*i);
+			}
 		}
-			
-			printf("%2dX%2d=%2d", k,i,k*i);
-		}
-		printf("\n");
+		fprintf(wfp, "\n");
 	}
+	fclose(wfp);
 }
