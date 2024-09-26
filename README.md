@@ -1,2 +1,26 @@
 
-![image](https://github.com/user-attachments/assets/8d727143-29dd-48f0-b047-9c6d793bb999)
+package impl;
+
+
+import dto.NoticeDTO;
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+import mapper.INoticeMapper;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Slf4j
+@RequiredArgsConstructor
+@Service
+
+public class NoticeService implements INoticeService {
+    
+    private final INoticeMapper noticeMapper;
+    
+    
+    @Override
+    public List<NoticeDTO> getNoticeList() throws Exception{
+        return null;
+        
+    }
