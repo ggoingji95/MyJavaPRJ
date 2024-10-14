@@ -24,3 +24,4 @@ public class NoticeService implements INoticeService {
         return null;
         
     }
+}
